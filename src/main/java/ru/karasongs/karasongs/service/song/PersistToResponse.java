@@ -8,7 +8,7 @@ public record PersistToResponse(SongPersist song) {
         return SongResponse.builder()
                 .title(song.getTitle())
                 .author(song.getAuthor())
-                .genre(song().getGenre())
+                .genre(song.getGenre())
                 .timeLength(new DurationToLengthConverter(song).length())
                 .createdAt(song.getAddedAt())
                 .build();
