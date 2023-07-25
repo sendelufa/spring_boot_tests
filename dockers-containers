@@ -1,0 +1,6 @@
+docker run \
+--detach \
+--name=postgres-karasongs \
+--env="POSTGRES_PASSWORD=g#e3yPfu" \
+--publish 5432:5432 \
+postgres

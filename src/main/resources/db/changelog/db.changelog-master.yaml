@@ -1,0 +1,3 @@
+databaseChangeLog: #параметр в котором находятся миграции
+  - include: # список активных миграций
+      file: db/changelog/changeset/create-songs-table.sql # путь к файлу миграции
