@@ -1,4 +1,4 @@
-# Демонстрация тестов в Spring Bootstrap
+# Демонстрация тестов в Spring Boot
 
 В проекте найдете примеры юнит тестов, интеграционных тестов с
 использованием JUnit 5, AssertJ, Mockito, Testcontainers.
